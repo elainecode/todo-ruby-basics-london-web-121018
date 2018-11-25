@@ -16,7 +16,7 @@ def greeting(greeting, name)
   return "#{greeting} #{name}"
 end
 
-def return_a_value(argval)
+def return_a_value(argval="Nice")
   return argval
 end
 
