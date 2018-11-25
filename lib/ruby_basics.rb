@@ -13,16 +13,15 @@ def argue
 end
 
 def greeting(greeting, name)
-  greeting
-
+  return "#{greeting} #{name}"
 end
 
 def return_a_value(val)
   return val
 end
 
-def last_evaluated_value
-
+def last_evaluated_value(val)
+  return val
 end
 
 def pizza_party(food = "cheese")
