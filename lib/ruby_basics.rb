@@ -8,8 +8,8 @@ def assign_variable(value)
   return val
 end
 
-def argue
-  
+def argue(val)
+  return val
 end
 
 def greeting(greeting, name)
