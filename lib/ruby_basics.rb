@@ -16,12 +16,12 @@ def greeting(greeting, name)
   return "#{greeting} #{name}"
 end
 
-def return_a_value(val)
-  return val
+def return_a_value(argval)
+  return argval
 end
 
-def last_evaluated_value(val)
-  return val
+def last_evaluated_value(nval)
+  return nval
 end
 
 def pizza_party(food = "cheese")
