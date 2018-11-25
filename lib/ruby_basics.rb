@@ -20,7 +20,7 @@ def return_a_value(argval="Nice")
   return argval
 end
 
-def last_evaluated_value(nval)
+def last_evaluated_value(nval="expert")
   return nval
 end
 
